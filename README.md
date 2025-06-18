@@ -30,12 +30,6 @@ Os usuários devem ser capazes de:
 ### Tablet / Mobile
 ![Mobile](./src/design/mobile-design.jpg)
 
-
-### Links
-
-- URL da solução: [Adicione aqui a URL da solução](https://your-solution-url.com)
-- URL do site ao vivo: [Adicione aqui a URL do site ao vivo](https://your-live-site-url.com)
-
 ## Meu processo
 
 ### Construído com
