@@ -1,0 +1,80 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: var(--violet) url('../images/bg-desktop.svg') no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 50px;
+}
+
+.header .logo {
+    width: 200px;
+}
+
+main {
+    display: flex;
+    margin: 10px 50px;
+}
+
+main .info {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    width: 50%;
+}
+
+main .info .title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+main .info p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 2rem;
+    width: 100%;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+main .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    color: var(--violet);
+    background-color: #fff;
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    transition: 1.5s;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: var(--soft-magenta);
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 100px;
+}
+
+.footer a i {
+    font-size: 4rem;
+    padding: 20px 10px;
+    transition: 1.5s;
+}
+
+.footer a i:hover {
+    color: var(--soft-magenta);
+}
