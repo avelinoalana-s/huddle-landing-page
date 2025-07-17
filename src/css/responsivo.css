@@ -37,7 +37,8 @@
     }
 
     .container img {
-        max-width: 100%;
+        width: 340px;
+        height: 240px;
         margin: 0 20px 60px 20px;
     }
 
@@ -85,4 +86,18 @@
     }
 }
 
+@media(max-width: 769px) {
+    body {
+        background: var(--background-color) url('../images/bg-mobile.svg') no-repeat;
+        background-size: cover;
+        display: block;
+    }
+}
 
+@media(max-width: 500px) {
+    body {
+        background: var(--background-color) url('../images/bg-mobile.svg') no-repeat;
+        background-size: contain;
+        display: block;
+    }
+}
